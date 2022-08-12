@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 //Быстро созданный мною класс без особого нюанса чтобы спрятать в основном ненужную информацию вроде входных данных и
-//нормализации названий компаний для облегчения поиска за счёт простых replace'ов
+//нормализации названий компаний для облегчения поиска за счёт простых replace'ов.
+//Не использовал regex из соображений производительности.
 public class InputData {
 
     public static List<Company> companiesIndeed = new ArrayList<>();
