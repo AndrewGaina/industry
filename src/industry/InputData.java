@@ -53,16 +53,16 @@ public class InputData {
     }
 
     public static void init(){
-        companiesYahoo.add(new Company("Netflix, inc.", "Entertainment")); //1
-        companiesYahoo.add(new Company("Alphabet inc.", "Internet Content & Information")); //2
-        companiesYahoo.add(new Company("BHP Group Limited", "Other Industrial Metals & Mining")); //3
-        companiesYahoo.add(new Company("Ecolab Inc.", "Specialty Chemicals")); //4
-        companiesYahoo.add(new Company("Apple Inc.", "Consumer Electronics")); //5
-        companiesYahoo.add(new Company("Activision Blizzard, Inc.", "Electronic Gaming & Multimedia")); //6
-        companiesYahoo.add(new Company("NVIDIA Corporation", "Semiconductors")); //7
-        companiesYahoo.add(new Company("Applied Materials, Inc.", "Semiconductor Equipment & Materials")); //8
-        companiesYahoo.add(new Company("Visa Inc.", "Credit Services")); //9
-        companiesYahoo.add(new Company("The Coca-Cola Company", "Beverages—Non-Alcoholic")); //10
+        companiesYahoo.add(new Company("Netflix, inc.", "Entertainment"));
+        companiesYahoo.add(new Company("Alphabet inc.", "Internet Content & Information"));
+        companiesYahoo.add(new Company("BHP Group Limited", "Other Industrial Metals & Mining")); 
+        companiesYahoo.add(new Company("Ecolab Inc.", "Specialty Chemicals")); 
+        companiesYahoo.add(new Company("Apple Inc.", "Consumer Electronics")); 
+        companiesYahoo.add(new Company("Activision Blizzard, Inc.", "Electronic Gaming & Multimedia")); 
+        companiesYahoo.add(new Company("NVIDIA Corporation", "Semiconductors"));
+        companiesYahoo.add(new Company("Applied Materials, Inc.", "Semiconductor Equipment & Materials")); 
+        companiesYahoo.add(new Company("Visa Inc.", "Credit Services"));
+        companiesYahoo.add(new Company("The Coca-Cola Company", "Beverages—Non-Alcoholic"));
         companiesYahoo.add((new Company("Wells Fargo & Company","Banks—Diversified")));
         companiesYahoo.add((new Company("NIKE, Inc.","Footwear & Accessories")));
         companiesYahoo.add((new Company("Sea Limited","Internet Retail")));
@@ -107,16 +107,16 @@ public class InputData {
 
         Collections.shuffle(companiesYahoo);
 
-        companiesIndeed.add(new Company("Netflix", "Media & Communication")); //1
-        companiesIndeed.add(new Company("Alphabet", "Information Technology")); //2
-        companiesIndeed.add(new Company("BHP", "Energy, Mining & Utilities")); //3
-        companiesIndeed.add(new Company("Ecolab", "Manufacturing")); //4
-        companiesIndeed.add(new Company("Apple", "Information Technology")); //5
-        companiesIndeed.add(new Company("Activision Blizzard", "Culture & Entertainment")); //6
-        companiesIndeed.add(new Company("NVIDIA", "Information Technology")); //7
-        companiesIndeed.add(new Company("Applied Materials", "Electronics Manufacturing")); //8
-        companiesIndeed.add(new Company("Visa", "Financial Services")); //9
-        companiesIndeed.add(new Company("The Coca-Cola Company", "Food & Beverage Manufacturing")); //10
+        companiesIndeed.add(new Company("Netflix", "Media & Communication")); 
+        companiesIndeed.add(new Company("Alphabet", "Information Technology")); 
+        companiesIndeed.add(new Company("BHP", "Energy, Mining & Utilities"));
+        companiesIndeed.add(new Company("Ecolab", "Manufacturing")); 
+        companiesIndeed.add(new Company("Apple", "Information Technology"));
+        companiesIndeed.add(new Company("Activision Blizzard", "Culture & Entertainment"));
+        companiesIndeed.add(new Company("NVIDIA", "Information Technology"));
+        companiesIndeed.add(new Company("Applied Materials", "Electronics Manufacturing"));
+        companiesIndeed.add(new Company("Visa", "Financial Services")); 
+        companiesIndeed.add(new Company("The Coca-Cola Company", "Food & Beverage Manufacturing")); 
         companiesIndeed.add((new Company("Wells Fargo","Financial Services")));
         companiesIndeed.add((new Company("NIKE","Retail & Wholesale")));
         companiesIndeed.add((new Company("Sea, Ltd.","Information Technology")));
